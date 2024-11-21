@@ -1,0 +1,174 @@
+/* --- RESET GENERAL --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/* --- HEADER --- */
+.header {
+    background: linear-gradient(rgb(43, 29, 29), rgb(226, 54, 54));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 1rem 0;
+    text-align: center;
+}
+.icono_ {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+.icono {
+    width: 10%;
+}
+h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+h2 {
+    color: rgb(226, 54, 54);
+    font-size: 1.5rem;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+.general_menu {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.general_menu:hover {
+    color: rgb(226, 54, 54);
+}
+.pelis{
+    background:linear-gradient(rgb(226, 54, 54),rgb(43, 29, 29)); 
+  display: flex;
+    flex-direction: row;
+
+}
+.itb {
+    display: flex;
+    justify-content: center;
+margin-bottom: -1%;
+}
+.peliculas_titulo{
+    display: flex;
+   justify-content: center;
+   text-decoration: none;
+   color : white
+
+}
+.peliculas_titulohover {
+    color: rgb(226, 54, 54);
+}s
+.pelis_index{
+    display: flex;
+    flex-direction: row;
+}
+.pelis-general{
+    display: flex;
+    justify-content: center;
+}
+.actor{
+    background:linear-gradient(rgb(43, 29, 29),rgb(226, 54, 54)); 
+}
+.actores{
+    display: flex;
+    justify-content: center;
+    color: rgb(226, 54, 54);
+}
+.actores_index{
+    display: flex;
+}
+.aside{
+    background:linear-gradient(rgb(226, 54, 54),rgb(43, 29, 29)); 
+    margin-top: -1.2%;
+    width: 35%;
+    justify-content: center;
+    padding-bottom: 5.5%;
+}
+.festival{
+    display: flex;
+   justify-content: center;
+
+}
+.serie{
+    background:linear-gradient(rgb(226, 54, 54),rgb(43, 29, 29)); 
+    width: auto;
+}
+.series{
+    display: flex;
+   justify-content: center;
+}
+.series_index{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 201px 200px  ;
+}
+.series-general{
+    display: flex;
+    justify-content: center;
+}
+.container-flex-row{
+    display: flex;
+}
+.festival_img{
+    display: flex;
+    justify-content: center;
+    margin-left: 35%
+}
+.texto_aside{
+    margin-left: 30%;
+}
+.texto_series{
+    text-decoration: none;
+    color:red;
+    margin-left:35% ;
+}
+.texto_pelis{
+    text-decoration: none;
+     color: rgb(255, 252, 252);
+     margin-left:20% ;
+}
+.texto_actores{
+    text-decoration: none;
+     color:black;
+     margin-left: 25%;
+}
+.visto{
+    background:linear-gradient(rgb(43, 29, 29),rgb(226, 54, 54)); 
+    margin-top: -1.55%;
+}
+.vistos{
+    display: flex;
+    justify-content: center;
+    color: rgb(226, 54, 54);
+}
+.lomas_visto_index{
+    display: flex;
+}
+.texto_visto{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 25%;
+}
+.footer_adderess{
+    justify-items: center;
+}
+.footer{
+    background:linear-gradient(rgb(226, 54, 54),rgb(43, 29, 29));
+    margin-top: -1%;
+    justify-content: center;
+    padding: 2%;
+}
